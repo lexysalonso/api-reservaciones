@@ -1,10 +1,11 @@
 from django.db import models
+from api.v1.modulos.viajes.models import Viaje
 
-class Omnibus2(models.Model):
-    numero = models.IntegerField()
-    chapa = models.CharField(max_length=7)
-    disponible = models.BooleanField(default=True)
-    capacidad = models.IntegerField()
+class Reservacion(models.Model):
+    fecha = models.CharField(max_length=10)
+    viajes = models.ForeignKey(Viaje, related_name="reservaciones", on_delete=models.CASCADE)
+    cis = models.CharField(max_length=100)
+    asientos = models.IntegerField()
 
     def __str__(self):
-        return str(self.numero)
+        return '{}-{}'.format(self.fecha,self.viajes)

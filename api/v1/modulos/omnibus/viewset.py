@@ -33,7 +33,10 @@ class OmnibusCreate(ModelViewSet):
         def OmnibusViajes(self,request,pk=None):
             viajes = Viaje.objects.filter(omnibus_id=self.kwargs["pk"])
             print('ver viajes',viajes)
-            serializer = ViajeSerealizer(viajes, many=True,read_only=True)
+            serializer_context = {
+                'request': request,
+            }
+            serializer = ViajeSerealizer(viajes, context=serializer_context, many=True,read_only=True)
             return Response(serializer.data, status=status.HTTP_200_OK)
 
 
