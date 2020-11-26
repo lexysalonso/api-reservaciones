@@ -8,6 +8,6 @@ router.register('viajes',ViajeCreate, basename='viajes' )
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('viajes/destino',DestinoCreate.as_view(), name='destino'),
+    path('destino/', DestinoCreate.as_view(), name='destino'),
 
 ]

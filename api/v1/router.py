@@ -14,13 +14,16 @@ class DocsView(APIView):
                    'choferes': request.build_absolute_uri('choferes/'),
                    'viajes': request.build_absolute_uri('viajes/'),
                    'reservaciones': request.build_absolute_uri('reservaciones/'),
+                   'reportes': request.build_absolute_uri('reportes/omnibustaller'),
+                   'reportes-ombs-mv': request.build_absolute_uri('reportes/omnibus-mas-viajes'),
                    }
         return Response(apidocs)
 
 urlpatterns = [
     path('',DocsView.as_view()),
-    path('', include(('api.v1.modulos.omnibus.urls', 'omnibus'))),
+    path('', include(('api.v1.modulos.omnibus.urls', 'omnibus1'))),
     path('', include(('api.v1.modulos.choferes.urls', 'choferes'))),
     path('', include(('api.v1.modulos.viajes.urls', 'viajes'))),
     path('', include(('api.v1.modulos.reservaciones.urls', 'reservaciones'))),
+    path('', include(('api.v1.modulos.reportes.urls', 'reportes')))
 ]

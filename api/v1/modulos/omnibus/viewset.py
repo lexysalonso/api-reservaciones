@@ -29,7 +29,7 @@ class OmnibusCreate(ModelViewSet):
               omnibus.save()
               return Response({'satatus':'Omnibus ya disponible'},status=status.HTTP_200_OK)
 
-        @action(methods=['get'],detail=True,url_name='viajes',url_path='viajes')
+        @action(methods=['get'],detail=True,url_name='viajes1',url_path='viajes')
         def OmnibusViajes(self,request,pk=None):
             viajes = Viaje.objects.filter(omnibus_id=self.kwargs["pk"])
             print('ver viajes',viajes)
