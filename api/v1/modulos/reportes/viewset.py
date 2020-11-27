@@ -9,10 +9,11 @@ from rest_framework.response import Response
 from api.v1.modulos.omnibus.serializer import OmnibusSerialzer
 from api.v1.modulos.viajes.serializer import ViajeSerealizer
 from api.v1.modulos.viajes.models import Viaje
-
+from rest_framework.permissions import IsAuthenticated
 
 class OmnibusTaller(viewsets.GenericViewSet):
        queryset = ()
+       permission_classes = (IsAuthenticated ,)
 
        @action(methods=['get'],detail=False,url_path='omnibustaller', url_name='omnibustaller')
        def listOmnibus(self,request):
