@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e68930f5-ae93-4bbb-b410-e91d76701b3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIReservaciones/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/APIReservaciones/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/choferes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/choferes/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/omnibus/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/omnibus/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reportes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reportes/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reservaciones/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reservaciones/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/usuarios/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/usuarios/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/usuarios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/usuarios/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/usuarios/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/usuarios/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/viajes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/viajes/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/router.py" afterDir="false" />
-    </list>
+    <list default="true" id="e68930f5-ae93-4bbb-b410-e91d76701b3d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +101,7 @@
       <workItem from="1606399274174" duration="4710000" />
       <workItem from="1606408611517" duration="7457000" />
       <workItem from="1606494608537" duration="6576000" />
-      <workItem from="1606509321296" duration="1395000" />
+      <workItem from="1606509321296" duration="1695000" />
     </task>
     <servers />
   </component>
