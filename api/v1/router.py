@@ -18,6 +18,8 @@ class DocsView(APIView):
                    'reportes-ombs-mv': request.build_absolute_uri('reportes/omnibus-mas-viajes'),
                    'login': request.build_absolute_uri('token/'),
                    'regsiteruser': request.build_absolute_uri('register/'),
+                   'projects': request.build_absolute_uri('projects/'),
+                   'Grupos': request.build_absolute_uri('groups/'),
                    }
         return Response(apidocs)
 
@@ -29,4 +31,6 @@ urlpatterns = [
     path('', include(('api.v1.modulos.reservaciones.urls', 'reservaciones'))),
     path('', include(('api.v1.modulos.reportes.urls', 'reportes'))),
     path('', include(('api.v1.modulos.usuarios.urls', 'usuarios'))),
+    path('', include(('api.v1.modulos.Projects.urls', 'projects'))),
+    path('', include(('api.v1.modulos.groups.urls', 'groups')))
 ]

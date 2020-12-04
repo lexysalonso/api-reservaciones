@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e68930f5-ae93-4bbb-b410-e91d76701b3d" name="Default Changelist" comment="" />
+    <list default="true" id="e68930f5-ae93-4bbb-b410-e91d76701b3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/v1/modulos/Projects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/modulos/Projects/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/modulos/Projects/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/modulos/Projects/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/modulos/Projects/viewset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/APIReservaciones.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APIReservaciones.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIReservaciones/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/APIReservaciones/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/modulos/choferes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/choferes/viewset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/modulos/omnibus/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/omnibus/viewset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reportes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reportes/viewset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reservaciones/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reservaciones/viewset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/modulos/usuarios/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/usuarios/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/modulos/usuarios/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/usuarios/viewset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/modulos/viajes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/viajes/viewset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/router.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +48,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjercicioApi" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -102,6 +127,16 @@
       <workItem from="1606408611517" duration="7457000" />
       <workItem from="1606494608537" duration="6576000" />
       <workItem from="1606509321296" duration="1695000" />
+      <workItem from="1606743687642" duration="16886000" />
+      <workItem from="1606830714639" duration="3028000" />
+      <workItem from="1606858732120" duration="861000" />
+      <workItem from="1606898133888" duration="191000" />
+      <workItem from="1606898460727" duration="1470000" />
+      <workItem from="1606918678758" duration="10894000" />
+      <workItem from="1607002967997" duration="132000" />
+      <workItem from="1607004496564" duration="20283000" />
+      <workItem from="1607088215615" duration="7283000" />
+      <workItem from="1607099260840" duration="13411000" />
     </task>
     <servers />
   </component>
@@ -111,6 +146,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/media/lmdiaz/bd47588f-a8f9-4e55-b2d4-112c4f385fdf/Lexys/Programacion/Python_API/Framework Django/proyectos/APIReservaciones/api/v1/modulos/viajes" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
