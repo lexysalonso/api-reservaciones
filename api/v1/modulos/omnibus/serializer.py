@@ -9,4 +9,4 @@ class OmnibusSerialzer(serializers.ModelSerializer):
           viajes = serializers.HyperlinkedIdentityField(view_name="omnibus1:omnibus-viajes1")
           class Meta:
                model = Omnibus
-               fields = ('numero', 'chapa', 'disponible', 'capacidad','url','viajes')
+               fields = ('numero', 'chapa', 'disponible', 'capacidad','url','viajes','create_by')

@@ -1,4 +1,5 @@
 from django_filters.rest_framework import DjangoFilterBackend
+from dry_rest_permissions.generics import DRYObjectPermissions,DRYGlobalPermissions
 from rest_framework import filters
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
@@ -12,11 +13,11 @@ from rest_framework import status
 
 class OmnibusCreate(ModelViewSet):
         def get_queryset(self):
-           queryset = Omnibus.objects.all().order_by('numero')
+           queryset = Omnibus.objects.all()
            return queryset
 
         serializer_class = OmnibusSerialzer
-        permission_classes = (IsAuthenticated,)
+        permission_classes = (IsAuthenticated,DRYGlobalPermissions,DRYObjectPermissions)
         filter_backends = [DjangoFilterBackend]
         filterset_fields = ['disponible']
 
@@ -38,7 +39,7 @@ class OmnibusCreate(ModelViewSet):
               return Response({'status':'Omnibus ya disponible'},status=status.HTTP_200_OK)
 
         @action(methods=['get'],detail=True,url_name='viajes1',url_path='viajes')
-        def OmnibusViajes(self,request,pk=None):
+        def omnibusviajes(self,request,pk=None):
             print('ver el request', request.user)
             viajes = Viaje.objects.filter(omnibus_id=self.kwargs["pk"])
             print('ver viajes',viajes)

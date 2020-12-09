@@ -121,7 +121,7 @@ WSGI_APPLICATION = 'APIReservaciones.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ReservacionesApi',
+        'NAME': 'ReservacionesApiv1',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'HOST': 'localhost',

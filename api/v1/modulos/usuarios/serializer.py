@@ -5,10 +5,10 @@ from rest_framework import serializers
 from django.contrib.auth import authenticate
 
 class RegisterUserSerealizer(serializers.ModelSerializer):
-
+          url = serializers.HyperlinkedIdentityField(view_name="usuarios:user-detail")
           class Meta:
                model = User
-               fields = ('username','password','email','first_name','last_name','user_permissions','groups')
+               fields = ('url','username','password','email','first_name','last_name','user_permissions','groups','is_superuser')
                extra_kwargs = {
                    'password':{
                        'write_only':True
@@ -27,16 +27,60 @@ class RegisterUserSerealizer(serializers.ModelSerializer):
                   user = User.objects.create_user(validate_data['username'],
                                                    password=validate_data['password'],
                                                    first_name=validate_data['first_name'],
-                                                   last_name=validate_data['last_name']
+                                                   last_name=validate_data['last_name'],
+                                                   email = validate_data['email'],
+                                                   is_superuser= validate_data['is_superuser']
 
                                                    )
                   user.set_password(validate_data['password'])
                   user.user_permissions.set(permissions)
+
                   user.groups.set(gps)
                   user.save()
                   return user
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class UserSerealizer(serializers.ModelSerializer):
+
       class Meta:
           model = User
           fields = '__all__'

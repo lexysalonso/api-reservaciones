@@ -9,7 +9,7 @@ class ViajeSerealizer(serializers.ModelSerializer):
         reservaciones = serializers.HyperlinkedIdentityField(view_name="viajes:viajes-reservaciones")
         class Meta:
             model = Viaje
-            fields = ['hora','omnibus','chofer1','chofer2','origen','destino','reservaciones']
+            fields = ['hora','omnibus','chofer1','chofer2','origen','destino','reservaciones','create_by']
 
 
 

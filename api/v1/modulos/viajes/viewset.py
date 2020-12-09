@@ -23,7 +23,7 @@ class ViajeCreate(ModelViewSet):
       queryset = Viaje.objects.all()
       serializer_class = ViajeSerealizer
       filter_class = ProductFilter
-      permission_classes = (IsAuthenticated,)
+      #permission_classes = (IsAuthenticated,)
       filter_backends = [filters.OrderingFilter]
       ordering_fields = ['omnibus', 'email']
 
