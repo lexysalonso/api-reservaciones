@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68930f5-ae93-4bbb-b410-e91d76701b3d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIReservaciones/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/APIReservaciones/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/migrations/0002_projects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/choferes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/choferes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/choferes/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/choferes/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/choferes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/choferes/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/omnibus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/omnibus/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/omnibus/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/omnibus/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/omnibus/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/omnibus/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reportes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reportes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reportes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reportes/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reservaciones/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reservaciones/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reservaciones/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reservaciones/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/reservaciones/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/reservaciones/viewset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/usuarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/usuarios/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/usuarios/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/usuarios/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/viajes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/viajes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/viajes/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/viajes/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/modulos/viajes/viewset.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/modulos/viajes/viewset.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +123,7 @@
       <workItem from="1607099260840" duration="13733000" />
       <workItem from="1607329153891" duration="14462000" />
       <workItem from="1607439845468" duration="10233000" />
+      <workItem from="1607521082501" duration="954000" />
     </task>
     <servers />
   </component>
